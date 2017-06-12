@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+body {
+  line-height: 1;
+  color: #333;
+  background: #f4f4f4; }
+
+header {
+  background: #fff;
+  width: 100%;
+  height: 55px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around; }
+  header img {
+    width: 15%;
+    height: 70%;
+    margin-top: -5px; }
+  header input {
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    background: url(../img/i_ico.png) no-repeat 5px -110px;
+    background-size: 70px auto;
+    border: 1px solid #CCCCCC;
+    padding-left: 30px; }
+  header p {
+    width: 40px;
+    height: 40px;
+    background: url(../img/i_ico.png) no-repeat;
+    background-position: -32px -2px;
+    background-size: 70px auto; }
+
+nav {
+  background: #fff;
+  width: 100%;
+  padding-left: 15px;
+  text-align: center; }
+  nav ul {
+    width: 95%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+    nav ul li {
+      font-size: 15px;
+      line-height: 20px;
+      height: 30px;
+      width: 80px;
+      text-align: center; }
+      nav ul li a {
+        color: black;
+        text-decoration: none; }
+    nav ul .on {
+      border-bottom: 1px solid #FE8700; }
+      nav ul .on a {
+        color: #FE8F36; }
+
+.view {
+  width: 100%; }
+  .view .slide {
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    .view .slide .slideinner {
+      width: 300%;
+      list-style: none;
+      display: flex; }
+      .view .slide .slideinner img {
+        width: 100%; }
+    .view .slide .dd {
+      width: 10%;
+      height: 7px;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 10px;
+      left: 45%;
+      bottom: 10px;
+      display: flex;
+      -webkit-justify-content: space-around; }
+      .view .slide .dd span {
+        display: block;
+        width: 7px;
+        background: #7F8282;
+        border-radius: 50%; }
+        .view .slide .dd span.active {
+          background: #FF8800; }
+  .view .classify {
+    width: 100%;
+    background: #fff; }
+    .view .classify ul {
+      width: 100%;
+      display: flex;
+      list-style: none;
+      justify-content: space-between; }
+      .view .classify ul li {
+        width: 100%;
+        margin: 7px; }
+        .view .classify ul li img {
+          width: 100%; }
+
+.tuijian {
+  margin-top: 10px;
+  width: 100%;
+  background: #fff;
+  padding-left: 10px; }
+  .tuijian .title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; }
+    .tuijian .title span:nth-child(1) {
+      border-left: 3px solid #FF8800;
+      padding-left: 10px;
+      font-weight: bold;
+      font-size: 16px; }
+    .tuijian .title span:last-child {
+      color: #999C9F; }
+  .tuijian .swiper-container {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 15px; }
+    .tuijian .swiper-container .swiper-slide {
+      width: 100%;
+      display: flex;
+      text-align: center; }
+      .tuijian .swiper-container .swiper-slide div {
+        height: 150px; }
+      .tuijian .swiper-container .swiper-slide p {
+        margin-top: 7px;
+        font-size: 14px; }
+      .tuijian .swiper-container .swiper-slide img {
+        width: 70%;
+        border-radius: 20px; }
+
+.hot {
+  padding-left: 10px;
+  margin-top: 10px;
+  width: 100%;
+  background: #fff; }
+  .hot .title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; }
+    .hot .title span:nth-child(1) {
+      border-left: 3px solid #FF8800;
+      padding-left: 10px;
+      font-weight: bold;
+      font-size: 16px; }
+    .hot .title span:last-child {
+      color: #999C9F; }
+  .hot .list {
+    width: 100%; }
+    .hot .list ul {
+      margin-top: 10px;
+      width: 100%;
+      height: 100%;
+      list-style: none; }
+      .hot .list ul li {
+        height: 50px;
+        border-top: 1px solid #EBEBEB;
+        line-height: 50px;
+        font-size: 15.5px;
+        text-align: left; }
+        .hot .list ul li:nth-child(1) {
+          border: 0; }
+
+.subject {
+  margin-top: 10px;
+  width: 100%; }
+  .subject .hea {
+    width: 100%; }
+  .subject ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; }
+    .subject ul li {
+      width: 50%;
+      margin: 10px; }
+      .subject ul li img {
+        width: 100%; }
+
+.box1 {
+  background: #fff;
+  margin-top: 10px;
+  padding-left: 10px; }
+  .box1 .title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; }
+    .box1 .title span:nth-child(1) {
+      border-left: 3px solid #FF8800;
+      padding-left: 10px;
+      font-weight: bold;
+      font-size: 16px; }
+  .box1 .swiper-container {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 15px; }
+    .box1 .swiper-container .swiper-slide {
+      width: 100%;
+      display: flex;
+      text-align: center; }
+      .box1 .swiper-container .swiper-slide div {
+        height: 150px; }
+      .box1 .swiper-container .swiper-slide p {
+        margin-top: 7px;
+        font-size: 14px; }
+      .box1 .swiper-container .swiper-slide img {
+        width: 70%;
+        border-radius: 20px; }
+
+.link {
+  margin-top: 10px;
+  background: #fff;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 15px;
+  position: relative; }
+  .link h4 {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px; }
+  .link .cont {
+    height: 24px;
+    overflow: hidden; }
+    .link .cont p {
+      color: #666666;
+      line-height: 20px;
+      margin-bottom: 10px; }
+  .link .angle {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    border: 0 solid rgba(201, 201, 201, 0.75);
+    transform: rotate(42deg);
+    border-width: 0 2px 2px 0; }
+
+footer {
+  padding-top: 15px;
+  padding-left: 10px; }
+  footer p {
+    font-size: 14px;
+    margin-bottom: 15px; }
+    footer p span {
+      color: #F5864F; }
+
+/*# sourceMappingURL=yi.css.map */

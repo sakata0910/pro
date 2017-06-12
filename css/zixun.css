@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+body {
+  line-height: 1;
+  color: #333;
+  background: #f4f4f4; }
+
+header {
+  background: #fff;
+  width: 100%;
+  height: 55px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around; }
+  header img {
+    width: 15%;
+    height: 70%;
+    margin-top: -5px; }
+  header input {
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    background: url(../img/i_ico.png) no-repeat 5px -110px;
+    background-size: 70px auto;
+    border: 1px solid #CCCCCC;
+    padding-left: 30px; }
+  header p {
+    width: 40px;
+    height: 40px;
+    background: url(../img/i_ico.png) no-repeat;
+    background-position: -32px -2px;
+    background-size: 70px auto; }
+
+nav {
+  background: #fff;
+  width: 100%;
+  padding-left: 15px;
+  text-align: center;
+  border-bottom: 1px solid #DDDDDD; }
+  nav ul {
+    width: 95%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+    nav ul li {
+      font-size: 15px;
+      line-height: 20px;
+      height: 30px;
+      width: 80px;
+      text-align: center; }
+      nav ul li a {
+        color: black;
+        text-decoration: none; }
+    nav ul .on {
+      border-bottom: 1px solid #FE8700; }
+      nav ul .on a {
+        color: #FE8F36; }
+
+.view {
+  width: 100%;
+  padding-left: 10px;
+  background: #fff; }
+  .view ul {
+    width: 95%;
+    list-style: none;
+    background: #fff; }
+    .view ul li {
+      padding: 25px 0 27px;
+      display: block;
+      border-bottom: 1px solid #ebebeb; }
+      .view ul li h2 {
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-weight: 500; }
+      .view ul li p {
+        margin-bottom: 10px;
+        line-height: 20px;
+        font-size: 13px; }
+        .view ul li p:last-child {
+          color: #A5999F;
+          font-size: 11px; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px; }
+  footer p {
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=zixun.css.map */
